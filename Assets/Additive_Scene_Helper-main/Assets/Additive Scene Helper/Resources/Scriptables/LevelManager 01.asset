@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239c35e179bca9e4f8d3f5ac3432161f, type: 3}
+  m_Name: LevelManager 01
+  m_EditorClassIdentifier: 
+  MAIN_SCENE_NAME: _Main Scene
+  sceneInfos:
+  - name: Levels
+    sceneFolderPath: Assets/Additive Scene Helper/Scenes/Levels
+    sceneObjects:
+    - {fileID: 102900000, guid: 971555c5f172a7d4f8d4512308ddd722, type: 3}
+    - {fileID: 102900000, guid: 9007be79c17eb2048a0d4084c157805a, type: 3}
+    - {fileID: 102900000, guid: 0049d517fbcdd4f4681bd8cc1ec33276, type: 3}
+    - {fileID: 102900000, guid: e049ebb36485b25439a3fb9b93a44d2b, type: 3}
+    - {fileID: 102900000, guid: 52d499ea2caae2847b4bf0a5de1b7d5f, type: 3}
+  - name: Utility
+    sceneFolderPath: Assets/Additive Scene Helper/Scenes/Utility
+    sceneObjects:
+    - {fileID: 102900000, guid: 8bcbb90c2b0cbe94084e233568bfc89c, type: 3}
+    - {fileID: 102900000, guid: a6c862139ed9ba7408220b65276be8aa, type: 3}
+    - {fileID: 102900000, guid: 34ab262f6f313e94189c6419096dc35d, type: 3}

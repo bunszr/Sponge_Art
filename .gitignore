@@ -57,4 +57,9 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
+Assets/Dreamteck/
+Assets/Dreamteck.meta
+Assets/_Game/Unnecessary Things/
+Assets/_Game/Unnecessary Things.meta
+Assets/Plugins/Sirenix
+Assets/Plugins/Sirenix.meta

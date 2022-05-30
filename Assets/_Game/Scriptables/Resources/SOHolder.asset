@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d35bb5b8ca0e142963f0f80a50c0e5, type: 3}
+  m_Name: SOHolder
+  m_EditorClassIdentifier: 
+  events:
+    onPressedNextLevelButton: {fileID: 11400000, guid: ac3ac1928ade7d44190b239a7c59e9d6, type: 2}
+    onPressedRestartLevelButton: {fileID: 11400000, guid: 9030df6714003b441b0b5ecb02e66b1b, type: 2}
+    onClickAndLevelStart: {fileID: 11400000, guid: 5896056a271067245a93f7f81c491b43, type: 2}
+    elasticBandDoneGameEvent: {fileID: 11400000, guid: 82d9487b134d2e1438081b0338b88611, type: 2}
+    elasticBandFailGameEvent: {fileID: 11400000, guid: db0cf81fc4d4bed4094272e4951beb97, type: 2}
+    onReleaseAllBandStartGameEvent: {fileID: 11400000, guid: 56d0c9e735c91ed4280726b42a99632a, type: 2}
+    onReleaseAllBandDoneGameEvent: {fileID: 11400000, guid: d0f2fa7cd75a52b478c444f389add166, type: 2}
+    onCutBand: {fileID: 11400000, guid: 62111649255cb684eb68402ea312e56f, type: 2}
+    onMakeSticker: {fileID: 11400000, guid: 9126e341e6b2bc74a82d0d0bb783ae5d, type: 2}
+    onState_BandControllerEnter: {fileID: 11400000, guid: 6a56ad611d5ea8b418141f856e250e75, type: 2}
+    onState_FinalStateEnter: {fileID: 11400000, guid: ca5d385357dad2743bbc90377ef18fa8, type: 2}
+  importants:
+    inputData: {fileID: 11400000, guid: adfe238183d5f2e46854ad2c5f7cf416, type: 2}
+    intersectionInfoSo: {fileID: 11400000, guid: a130379382d6e9345bafd3fa2de51acf, type: 2}
+    levelInfoManager: {fileID: 11400000, guid: f9edcaa5b7aa6c8488136b7fb83a2bd2, type: 2}
+    levelManager: {fileID: 11400000, guid: b596761203be8744ca9323f8c8a77e56, type: 2}
+    moneyInfo: {fileID: 11400000, guid: e41a10a9d978f784c9dfd930c93b818b, type: 2}
+  variables:
+    minAccuracyFV: {fileID: 11400000, guid: f0c027d466333c144a6c270ea4477b32, type: 2}
+    currAccuracyFV: {fileID: 11400000, guid: 36787e802fb0dab48a894b2adbee26f0, type: 2}

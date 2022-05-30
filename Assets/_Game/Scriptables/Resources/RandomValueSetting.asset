@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f6edf86cb4b6941980881acdfe2b68, type: 3}
+  m_Name: RandomValueSetting
+  m_EditorClassIdentifier: 
+  duration: {x: 0, y: 0}
+  position:
+  - {x: -0.39423078, y: 0.5}
+  - {x: -0.59615386, y: -0.11538464}
+  - {x: -0.75, y: -0.06730771}
+  scale:
+  - {x: 0.23076928, y: 0.79807687}
+  - {x: 0.45192313, y: 0.92307687}
+  - {x: 0.26923072, y: 0.8076923}
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4986945
+      value: 0.99545455
+      inSlope: 0.006490852
+      outSlope: 0.006490852
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.99609375
+      value: 0.0043296814
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

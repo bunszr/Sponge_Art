@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f4017bc7c321a441a2b6438a2c9e59a, type: 3}
+  m_Name: LevelInfoManager
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - levelName: Cube 45 Degree
+    requsetedModelSprite: {fileID: 21300000, guid: bd555f42239ca8345bb386b123654152, type: 3}
+    sticker: {fileID: 2800000, guid: a94a99f3afa221b48ac42e755c9059d9, type: 3}
+    intersectedPairPointsForCalculation:
+    - pointA: {x: 0.58710176, y: 0, z: 0.8290005}
+      pointB: {x: -0.58291686, y: 0, z: 0.8290011}
+    - pointA: {x: 1.169433, y: 0, z: 0.2519999}
+      pointB: {x: -1.1560522, y: 0, z: 0.25199905}
+    - pointA: {x: 1.0288316, y: 0, z: -0.38500017}
+      pointB: {x: -1.0347518, y: 0, z: -0.38500085}
+    - pointA: {x: 0.63544816, y: 0, z: -0.7769995}
+      pointB: {x: -0.64602625, y: 0, z: -0.7769988}
+  - levelName: Cube
+    requsetedModelSprite: {fileID: 21300000, guid: c4f526b4cc608e840a1d4a70ae47bdbd, type: 3}
+    sticker: {fileID: 2800000, guid: a94a99f3afa221b48ac42e755c9059d9, type: 3}
+    intersectedPairPointsForCalculation:
+    - pointA: {x: -0.32901013, y: 0, z: -1}
+      pointB: {x: -1, y: 0, z: -0.10534245}
+    - pointA: {x: 1, y: 0, z: -0.010036945}
+      pointB: {x: 0.17702222, y: 0, z: 1}
+    - pointA: {x: -1, y: 0, z: -0.004822433}
+      pointB: {x: -0.21126169, y: 0, z: 1}
+    - pointA: {x: 1, y: 0, z: -0.15468204}
+      pointB: {x: 0.33646524, y: 0, z: -1}
+  - levelName: Cylinder
+    requsetedModelSprite: {fileID: 21300000, guid: a7920968a4b0af94c978612557b51ce8, type: 3}
+    sticker: {fileID: 2800000, guid: a94a99f3afa221b48ac42e755c9059d9, type: 3}
+    intersectedPairPointsForCalculation:
+    - pointA: {x: -5.043616e-10, y: 0, z: 0.9895245}
+      pointB: {x: 7.296772e-10, y: 0, z: -0.98605114}
+    - pointA: {x: 0.70516956, y: 0, z: 0.7051698}
+      pointB: {x: -0.691934, y: 0, z: -0.69193417}
+    - pointA: {x: 0.9874452, y: 0, z: 0.0000003596077}
+      pointB: {x: -0.9920358, y: 0, z: -0.00000035785206}
+    - pointA: {x: 0.7084759, y: 0, z: -0.7084764}
+      pointB: {x: -0.7080213, y: 0, z: 0.7080218}
