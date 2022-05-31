@@ -33,3 +33,4 @@ MonoBehaviour:
   variables:
     minAccuracyFV: {fileID: 11400000, guid: f0c027d466333c144a6c270ea4477b32, type: 2}
     currAccuracyFV: {fileID: 11400000, guid: 36787e802fb0dab48a894b2adbee26f0, type: 2}
+    deformeAllMeshAnimDurationFV: {fileID: 11400000, guid: 6ec662958cb2c2a41b3f300cb89a61c0, type: 2}

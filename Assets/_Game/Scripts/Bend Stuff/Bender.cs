@@ -60,10 +60,11 @@ public class Bender : MonoBehaviour
         if (tween != null && tween.IsPlaying()) tween.Complete(true);
 
         float sqrDisFactor = minSqrDisFactor;
-        tween = DOTween.To(() => sqrDisFactor, x => sqrDisFactor = x, defaultSqrDisFactor, .5f).OnUpdate(() =>
-        {
-            bendingModel.bendingModelInfoSo.sqrDisFactor = sqrDisFactor;
-            Bend();
-        });
+        tween = DOTween.To(() => sqrDisFactor, x => sqrDisFactor = x, defaultSqrDisFactor, SOHolder.Ins.variables.deformeAllMeshAnimDurationFV.value)
+            .OnUpdate(() =>
+            {
+                bendingModel.bendingModelInfoSo.sqrDisFactor = sqrDisFactor;
+                Bend();
+            });
     }
 }

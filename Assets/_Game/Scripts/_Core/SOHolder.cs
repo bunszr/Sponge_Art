@@ -44,5 +44,6 @@ public class SOHolder : SingletonScriptableObject<SOHolder>
     {
         public FloatVariable minAccuracyFV;
         public FloatVariable currAccuracyFV;
+        public FloatVariable deformeAllMeshAnimDurationFV;
     }
 }
